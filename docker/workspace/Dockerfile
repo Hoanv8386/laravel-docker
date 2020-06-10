@@ -23,6 +23,7 @@ RUN docker-php-ext-install \
     pdo \
     pdo_mysql \
     mbstring \
+    php-xml \
     gd
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
